@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    padding: 0;
     font-family: "Ubuntu", sans-serif;
     background-image: linear-gradient(90deg,rgb(39, 131, 171),rgb(76, 128, 240),rgb(55, 28, 192),rgb(53, 55, 171));
 }
@@ -6,10 +8,19 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
+    font-size: 25px;
 }
 .maincontent{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.content{
+    background-color: rgb(56, 142, 173);
+    padding: 10px;
+    text-shadow: 1px 2px 5px rgb(50, 49, 49);
+    box-shadow: 4px 11px 15px 5px rgb(43, 42, 42); 
+    margin: 10px;
 }
